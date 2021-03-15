@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.radek {
+    display: block;
+    margin: 0;
+    height: 60px;
+}
+
+.pole {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin: 0;
+}
+
+.pole.black {
+    background-color: #343434;
+}
