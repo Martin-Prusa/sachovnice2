@@ -12,6 +12,7 @@ body {
 
 .container {
     border: 1px solid black;
+    width: 480px;
 }
 
 .radek {
@@ -28,6 +29,10 @@ body {
     margin: 0;
 }
 
-.pole.black {
+.radek:nth-child(odd) .pole:nth-child(even) {
+    background-color: #343434;
+}
+
+.radek:nth-child(even) .pole:nth-child(odd) {
     background-color: #343434;
 }
