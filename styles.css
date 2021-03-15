@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    height: 99%;
 }
 
 body {
@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    overflow: hidden;
 }
 
 .container {
